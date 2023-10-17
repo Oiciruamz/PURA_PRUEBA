@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 
 header{
     display: flex;
@@ -9,12 +12,10 @@ header{
 }
 
 h1{
-
     color: white;
 }
 
 .tarjeta{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -23,26 +24,18 @@ h1{
     height: 50vh;
     border: 3px solid;
     margin: 0 auto;
-
-
 }
 
-
-
-.hiper{
-    
+.hiper{  
     display: flex;
     margin-top: 10px;
     margin-right: 90px;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
-.img{
-    
+.img{ 
     width: 195px;
     height: 260px;
-    margin: 30px;
-    
+    margin: 30px;  
 }
 
